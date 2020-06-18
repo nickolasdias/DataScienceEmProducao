@@ -89,6 +89,6 @@ There are three importants points to consider:
 
 - Attributes of Agents: What's the description of the agents ? 
 
-
+![alt text] (https://github.com/nickolasdias/DataScienceEmProducao/blob/master/daily_store.png)
 
 
