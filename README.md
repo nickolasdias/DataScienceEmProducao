@@ -1,6 +1,13 @@
-# Data Science Em Produção
+# Data Science in Production
 
-# Introdução
+# Introduction
 
-Neste curso, aprenderemos a como criar um projeto de Data Science. 
-O curso é ministrado pelo Data Scientist Meigarom Lopes.
+This is a project that shows my progress in Data Science training in production. 
+
+Data Science in Prodution is a course taught by data scientist Meigarom Lopes. It teaches how to build a data science project using an easy-to-understand methodology.
+
+
+
+
+This project is divided into 10 modules where the necessary steps to make a complete data science project are presented.
+
