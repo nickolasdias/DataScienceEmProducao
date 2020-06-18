@@ -177,7 +177,44 @@ Also, we make the variable filtering because is necessary for business restrics.
 
 # Module 04 - Exploratory Data Analysis
 
-In this module, we get to learn a lot of awesome stuff about EDA.In summary, the importance of exploratory data analysis is to understand how the variables impact the phenomenon. And from there, measure the strength of that impact.
+In this module, we get to learn a lot of awesome stuff about EDA. In summary, the importance of exploratory data analysis is to understand how the variables impact the phenomenon. And from there, measure the strength of that impact.
+
+Therefore, the three objectives of the EDA are:
+
+- Gain business experience.
+
+- Validate business hypotheses.
+
+- Understand which variables are important to the business.
+
+There are three types of Exploratory Data Analysis:
+
+- **Univariate Analysis**
+
+-- How is this variable ?
+
+Get summary statistics (min, max, distribution, range, etc)
+
+- **Bivariate Analysis**
+
+How the explanatory variable impacts the target variable?
+
+Get correlation between them.
+
+Validate / Invalidate hypotheses.
+
+- **Multivariate Analysis**
+
+How is the relation between the explanatory variables ?
+
+Get correlation between them
+
+
+## 4.1. Univariate Analysis
+
+### 4.1.1. Target Variable (Sales)
+
+
 
 
 
