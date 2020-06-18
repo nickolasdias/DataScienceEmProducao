@@ -89,6 +89,95 @@ There are three importants points to consider:
 
 - Attributes of Agents: What's the description of the agents ? 
 
-![alt text] (https://github.com/nickolasdias/DataScienceEmProducao/blob/master/daily_store.png)
+![alt text](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/daily_store.png)
+
+Based on the hypothesis map, we create our hypothesis about the various stores, products and time.
+
+## Creating Hypothesis
+
+*Hypotheses about Stores*
+
+1. Store with more employees should sell more.
+
+2. Store with greater inventory capacity should sell more.
+
+3. Larger stores should sell more.
+
+4. Store with larger assortments should sell more.
+
+5. Store with closer competitors should sell less.
+
+6. Stores with longer competitors can sell more.
+
+*Hyphoteses about Products*
+
+1. Stores that invest more in marketing should sell more.
+
+2. Store with greater product exposure should sell more.
+
+3. Store with low-priced products are expected to sell more.
+
+4. Store with more aggressive promotions (bigger discounts) should sell more.
+
+5. Stores with active promotions for longer should sell more.
+
+6. Stores with more promotion days can sell more.
+
+7. Stores with more consecutive promotions should sell more.
+
+*Hyphoteses about Time*
+
+1. Stores that open on Christmas should sell more.
+
+2. Stores should sell more over the years.
+
+3. Stores should sell more in the second half of the year.
+
+4. Stores should sell more after the 10th of each month.
+
+5. Stores should sell less on weekends.
+
+6. Stores should sell less during school holidays.
+
+And we created a final list of hypotheses by choosing the most important hypotheses.
+
+## Hypothesis Final List
+
+1. Store with larger assortments should sell more.
+
+2. Store with closer competitors should sell less.
+
+3. Stores with longer competitors can sell more.
+
+4. Stores with active promotions for longer should sell more.
+
+5. Stores with more promotion days can sell more.
+
+6. Stores with more consecutive promotions should sell more.
+
+7. Stores that open on Christmas should sell more.
+
+8. Stores should sell more over the years.
+
+9. Stores should sell more in the second half of the year.
+
+10. Stores should sell more after the 10th of each month.
+
+11. Stores should sell less on weekends.
+
+12. Stores should sell less during school holidays.
+
+With the proposed mindmap of hypotheses, we create some variables in the data set to facilitate the exploration of the data set in the EDA phase as can be seen in the notebook.
+
+Also, we make the variable filtering because is necessary for business restrics.
+
+- **Variable Filtering** : it is constrained to the Business. There are variables which values you will only be able to have when a business rule is triggered in the system. So, your model will not always be able to use them at hand to make predictions.
+
+- **Variable Selection**:picking the most relevant variables for the model. Considers the correlations between variables. It does not take into account business rules.
+
+# Module 04 - Exploratory Data Analysis
+
+In this module, we get to learn a lot of awesome stuff about EDA.In summary, the importance of exploratory data analysis is to understand how the variables impact the phenomenon. And from there, measure the strength of that impact.
+
 
 
