@@ -6,7 +6,7 @@ This is a project that shows my progress in Data Science training in production.
 
 Data Science in Prodution is a course taught by data scientist **Meigarom Lopes**. It teaches how to build a data science project using an easy-to-understand methodology. And in the end, he teaches how to deploy the model in production.
 
-The challange of this project is to make a sales prevision of **Rossmann's Store**. So, we used the datasets from *Kaggle**
+The challange of this project is to make a sales prevision of **Rossmann's Store**. Therefore, we used the datasets from *Kaggle**
 
 This project is divided into 10 modules where the necessary steps to make a complete data science project are presented. They are:
 
@@ -32,9 +32,11 @@ This project is divided into 10 modules where the necessary steps to make a comp
 
 # Module 01 - Understanding the business problem
 
-In this module, we learn how important it is to understand the business problem before starting a data science project.
+In this module, I learn how important it is to understand the business problem before starting a data science project.
 
-There are three importants points to consider:
+In the case of Rossmann's Stores the business problem was to make **a sales prevision of all the stores in the next six weeks**.
+
+There are four importants points to consider:
 
 - Understand the motivation of the problem
 
@@ -43,4 +45,15 @@ There are three importants points to consider:
 - Identify the project sponsor.
 
 - Understand the solution format
+
+
+
+- The motivation was that the CFO requested this solution during a monthly results meeting.
+
+- The CFO wants to know the bugdet of each store to make reforms.
+
+- The project sponsor is the CFO.
+
+- The format solution is to make the predict of daily sales of each store in the next six weeks using predict methods.
+
 
