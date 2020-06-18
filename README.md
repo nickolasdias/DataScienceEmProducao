@@ -424,4 +424,10 @@ In this section we'll check the correlations between the explanatory variables, 
 
 ### 4.3.2. Categorical Attributes
 
+To make the correlation between two categorical variables, we'll use the Cramér V method.
 
+Please, refer to the notebook to check the calculations.
+
+![23](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/23.png)
+
+According to the heat map, we can conclude that the larger correlation occurs between *assortment* and *store type*. The result of 0.54 is a medium correlation. This means that the bigger the store, the higher is assortment of its products. With respect to the correlations of the other variables close to zero, we can conclude that they are weak and independent.
