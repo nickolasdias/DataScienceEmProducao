@@ -83,9 +83,9 @@ In this module, we learn how to create a mindmap. It helps in creating the list 
 
 There are three importants points to consider:
 
-- Phenomenal: What the phenomenal are we modeling ? In the case, we are modeling the daily store sales
+- Phenomenal: What the phenomenal are we modeling ? In the case, we are modeling the daily store sales.
 
-- Agents: who are the agents acting on the phenomenon of interest ? Customers, stores, assortments
+- Agents: who are the agents acting on the phenomenon of interest ? Customers, stores, assortments.
 
 - Attributes of Agents: What's the description of the agents ? 
 
