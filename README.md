@@ -214,7 +214,214 @@ Get correlation between them
 
 ### 4.1.1. Target Variable (Sales)
 
+![01](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/01.png)
+
+How we can analyse, the sales distribution is an asymmetric curve, that is,it's a curve that not follow a normal distribution.
+
+The Machine Learning algorithms require that data follow a normal distribution because their constructions are based on a continuous probability distribution. When the data not follow a normal distribution, we can apply techniques. 
+
+### 4.1.2. Numerical Variables
+
+![03](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/03.png)
+
+Analyzing the histograms, we have:
+
+**Competition Distance:** We can see that competitiors meet in a range of 0 to 50000.
+
+**Competition Open Since Month:** We can see that there is an increase in competition in the first months. Then in the months of May to August there is a drop / stability. And finally, in the months of September to December there is an increase and a decrease. This generates seasonality.
+
+**Competition Open Since Year**: we can see that the competitions of open stores had an increasing increase since the 2000s. But in 2015 the number of competitions was very high.
+
+**Customers**: We can see that the number of customers per day for the first 1000 days is higher. But then, the number of customers drops considerably.
+
+**Day of Week**: We can see that the histogram have a uniform distribution, is that, the stores open every day of the week. 
+
+**Is Promo**: We can see that many stores are not in promotion (promo=0) than in promotion (promo=1).
+
+**Open**: We can see that there many stores open (open=1) than closed (open=0). This result may be influenced by stores that open on holidays.
+
+**Promo**: we can see that there are many more stores that weren't in regular promotion (promo=0) than those who were (promo=1).
+
+**Promo2**: we can see that there is a tie between stores that participated in promo2 and stores that did not participate in promo2.
+
+**Promo2 Since Week**: we can observe that the graph does not present an immediate conclusion. We have that analise more.
+
+**Promo2 Since Year**: We can observe that many stores participed of the promotion in the years 2013 and 2014.
+
+**Sales**: we can see that there were many more sales ranging from 0 to nearly 10,000.
+
+**School Holiday**: we can see that there many more stores that were not affected by the closure of publics schools.
+
+**Stores**: The stores variable describe a unique Id for each store. Therefore, in this graph there is nothing to extract. 
+
+### 4.1.3. Categorical Variable
+
+![04](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/04.png)
+
+Analyzing the plots, we can see that:
 
 
+## 4.2. Bivariate Analysys
+
+We make the bivariate analysis of the hyphoteses final list. Therefore, follow that
+
+### **H1. Stores with higher assortment should have higher sales.**
+
+*FALSE Store larger assortment sells less*.
+
+![05](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/05.png)
+
+Assuming that largest assortments are of the extra type and analyzing the barplot, we find that sales of extra assortments are small compared to the basic and extended types. Therefore, we can conclude that **stores with larger assortments sell less**.
+
+However, we can ask ourselves if there has been any change in sales behavior over time. For this, we will check the **sales** for each assortment during the **weeks of the years**.
+
+![06](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/06.png)
+
+Looking at the graph above, we can conclude that the sales of the basic and extended assortment types are practically the same over time. But, we need verify the line that describe teh sales behavior of the extra type assortment. Therefore,
+
+![07](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/07.png)
+
+Looking at the line graphs, we can see if the stores with the largest (extra) assortment have the least sales.
+
+Therefore, the hyphotesis is **FALSE**
+
+### **H2. Store with closer competitors should sell less**
+
+*FALSE Store with closer competitors sell more*
+
+![08](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/08.png)
+
+Observing the results, stores with closer competitors sell more. Therefore, the hyphotese is **FALSE**.
+
+We can also plot a scatter plot to verify this result. 
+
+![09](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/09.png)
+
+On the scatter plot, the concentration of the points of sale occurs in stores with closer competitors. This also confirms the hypothesis is **FALSE**.
+
+![10](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/10.png)
+
+Reggarding Pearson's correlation, we can see that the result of **-0,23** is a **weak negative correlation**. This explains that the further away the competitions are, the lower the store sales will be.
+
+### **H3. Stores with longer competitions can sell more**
+
+*FALSE Stores with longer competitions sell less*
+
+![11](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/11.png)
+
+Analyzing the barplot, we can see that the more negative values approach 0, the sales are higher. What does that mean ?
+Means that stores with recent competitions sell more. On the other hand, stores with longer competitions sell less.
+Therefore, the hypothesis is **FALSE**.
+
+Let's plots the Pearson's correlation according to the code.
+
+![12](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/12.png)
+
+The Pearson's correlation is weak negative because your result is **-0,10**. But, this result is important because it influences the variable response which is sales. On the other hand, is necessary to use another type of correlation to measure the dispersion of the points and error. 
+
+### **H4. Stores with active promotions for longer should sell more**
+
+*FALSE Stores with active promotions for longer sell less*
+
+### Reading of the table above
+
+1) promo_time_week > 0: sales made inside the **extended** promotion time.
+
+2) promo_time_week < 0: sales made inside the **regular** promotion time.
+
+![13](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/13.png)
+
+As we can see in the total sales x weeks in extended promotion, there is a period when the extended promotion results in more sales. After a period of time, total sales begin to decline.
+
+From the total sales x weeks in regular promotion, we can see that, as compensation gets closer to zero, sales start to increase.
+
+Therefore, stores with a longer promotion period do not have higher sales. The hypothesis is **FALSE**.
+
+In relation the correlation heat map, we obtained a coeficient of **-0,029** which is very close to zero. Therefore, we have a super weak correlation. This is result makes sense because it has sales that are often constant over time.
+
+So, maybe we won't include promo_time_week in the model. Of course, this variable might work if we combine it with another variable, but we'll leave it for the time being.
+
+### <s>**H5. Stores with more promotion days can sell more**</s>
+
+As this hypothesis similar to H4. We will leave to validate it in the next CRISP cycle.
+
+###  **H6. Stores with more consecutive promotions should sell more**
+
+*FALSE Stores with more consecutive promotions sell less*
+
+![14](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/14.png)
+
+Looking at the results it seems that stores with more consecutive promotions sell less. Therefore, the hypothesis is **FALSE**.
+
+Regarding the relevance of the promo2 variable to the ML model, we can say that its relevance is low.
+
+### **H7. Stores that open on Christmas should sell more**
+
+*FALSE Stores that open on Christmas sell less*
+
+![15](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/15.png)
+
+![16](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/16.png)
+
+As noted in the previous results, stores that open on Cristmas sell less. Therefore, the hypothesis is **FALSE**.
+
+One observation we need to make here is that, in 2015, we still don't have Christmas sales data, because the data ends on July 31, 2015.
+
+Maybe we can consider this relevant variables for the Machine Learning model beause we have changes in sales depending on the type of holiday state and in what year.
+
+### **H8. Stores should sell more over the years**
+
+*FALSE Stores sell less over the years.*
+
+![17](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/17.png)
+
+As noted in the previous results, stores sell less over the years. In addition, looking at the Pearson correlation coefficient of -0.92, we can see that there is a strong negative correlation between year and sales. So, the hypothesis is FALSE.
+
+### H9. Stores should sell more in the second half of the year
+
+*FALSE Stores sell less in the second half of the year.*
+
+![18](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/18.png)
+
+As noted in the previous results, stores sell less in the second half of the year. In addition, by looking at Pearson's correlation coefficient of -0.75, we can see if there is a strong negative correlation between month and sales, which means that the sales fall over time.
+
+### H10. Stores should sell more after the 10th of each month
+
+*TRUE Stores sell more after the 10th of each month*
+
+![19](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/19.png)
+
+As observed in the previous results, stores sell more after the 10th day of the month. Therefore, the hypothesis is **TRUE**.
+
+In addition, checking the Pearson's correlation coefficient, we got a value of -0.35 which tells us that is a no so strong correlation between day and sales. However, as we have different values for total sales before and after the 10th day of the month, this variable can be relevant for our ML Model.
+
+### H11. Stores should sell less on weekends
+
+*TRUE Stores sell less on weekends.*
+
+![20](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/20.png)
+
+As noted in previous results, stores sell less on weekends. In addition, looking at Pearson's correlation coefficient of -0.76, we can see that there is a strong negative correlation between day of the week and sales.
+
+There, the hypothesis is **TRUE**
+
+### H12. Stores should sell less during school holidays
+
+*TRUE Stores sell less during school holidays*
+
+![21](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/21.png)
+
+As noted in the previous results, stores sell less during school holidays, except in July (7) and August (8). Therefore, this hypothesis is **TRUE**.
+
+
+## 4.3. Multivariate Analysis
+
+In this section we'll check the correlations between the explanatory variables, separating the analysis for numerical attributes and categorical attributes.
+
+### 4.3.1. Numerical Attributes
+
+![22](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/22.png)
+
+### 4.3.2. Categorical Attributes
 
 
