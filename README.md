@@ -30,3 +30,7 @@ This project is divided into 10 modules where the necessary steps to make a comp
 
 - Deploy Model to Production
 
+# Module 01 - Understanding the business problem
+
+
+
