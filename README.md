@@ -63,10 +63,18 @@ In this module, I start getting familiar with the dataset to understand how comp
 With this, I analyse some features of the data set as:
 
 - Dataset size
-  -- Do I have the correct resources to work with ?
-  -- Does the infrastrutucture support the amount of data ?
-  
 
+  -Do I have the correct resources to work with ?
+  -Does the infrastrutucture support the amount of data ?
+  
+- Variable types
+
+  -What variables types does the dataset have?
+  
+- Missing Data
+
+  -How much missing data does dataset have ? 
+  -Why are there missing data ?
 
 
 
