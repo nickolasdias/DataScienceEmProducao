@@ -77,4 +77,18 @@ How much missing data from the dataset ? Why are there missing data ?
 - Summary Statistics
 
 
+# Module 03 - Feature Engineering 
+
+In this module, we learn how to create a mindmap. It helps in creating the list of hypotheses to validating the data in the phase Exploratory Data Analyses.
+
+There are three importants points to consider:
+
+- Phenomenal: What the phenomenal are we modeling ? In the case, we are modeling the daily store sales
+
+- Agents: who are the agents acting on the phenomenon of interest ? Customers, stores, assortments
+
+- Attributes of Agents: What's the description of the agents ? 
+
+
+
 
