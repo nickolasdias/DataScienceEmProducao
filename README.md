@@ -32,5 +32,15 @@ This project is divided into 10 modules where the necessary steps to make a comp
 
 # Module 01 - Understanding the business problem
 
+In this module, we learn how important it is to understand the business problem before starting a data science project.
 
+There are three importants points to consider:
+
+- Understand the motivation of the problem
+
+- Understand the root cause of the problem
+
+- Identify the project sponsor.
+
+- Understand the solution format
 
