@@ -36,17 +36,17 @@ In this module, I learn how important it is to understand the business problem b
 
 In the case of Rossmann's Stores the business problem was to make **a sales prevision of all the stores in the next six weeks**.
 
-There are four importants points to consider:
+So, there are four importants points to consider:
 
-- Understand the motivation of the problem
+- Understand the motivation of the problem - What is the motivation for making this a sales prevision ?
 
-- Understand the root cause of the problem
+- Understand the root cause of the problem - Why do it ?
 
-- Identify the project sponsor.
+- Identify the project sponsor - Who's the stalkerholder ?
 
-- Understand the solution format
+- Understand the solution format - Granulality, for example.
 
-
+Using these points above, it was answered
 
 - The motivation was that the CFO requested this solution during a monthly results meeting.
 
@@ -55,5 +55,7 @@ There are four importants points to consider:
 - The project sponsor is the CFO.
 
 - The format solution is to make the predict of daily sales of each store in the next six weeks using predict methods.
+
+# Module 02 - Data Description
 
 
