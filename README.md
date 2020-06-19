@@ -571,6 +571,12 @@ In the first comparison, before Cross Validation, we divided our dataset in two:
 
 These were the results:
 
+![28](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/28.png)
+
+As observed in the results, the Random Forest Regressor had the least (1011.19). However, this doesn't mean that the Random Forest is the final model that we are going to pick for our predictions, because we need to make **Cross Validation** tests for each model to check their behavior in different data and then pick the right model. 
+
+## 7.2. Cross Validation and Comparing Model's Performance
+
 
 
 
