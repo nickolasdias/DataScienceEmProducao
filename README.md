@@ -531,6 +531,28 @@ Therefore, we use the trigonometric circle by placing the months as arcs and sep
 
 # Module 06 - Feature Selection
 
+In this module 06, we learn to make the feature selection. This is important to facilitate the understanding of the machine learning algorithms. 
+
+The feature selection will verify which variables of the data set are collinear, that is, variables that explain the same information, to remove them because variables of this type are not necessary to use.
+
+There are some types of feature selection as: Filter Methods, Embedded Methods, Wrapper Methods and Boruta.
+
+The method that will be used, in this project, is Boruta. Thus, we will to make a copy of the dataset to continue the project.
+
+By running Boruta for our dataset, the algorithm considers the following features as relevant:
+
+#colocar figura
+
+Comparing the columns between the ones that we outlined in the conclusion from our hypothesis and the ones that Boruta suggested, we can see some differences.
+
+However, this is not a problem, since we are working in an iterative process (CRISP-DS). We can first test the model using only the features that Boruta suggested, then include the one by one from our hypothesis and test to see what happens.
+
+# Module 07 - Machine Learning Modelling
+
+
+
+
+
 
 
 
