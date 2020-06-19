@@ -549,6 +549,29 @@ However, this is not a problem, since we are working in an iterative process (CR
 
 # Module 07 - Machine Learning Modelling
 
+In this module, we learn that there are different types of Machine Learning (Supervised, Unsupervised and Semi-Supervised) and also how we use each one. For the our problem, we apply different supervised learning models (Average, Linear Regression, Lasso Regression, Random Forest Regression and XGBoost Regression) to compare their performances and apply Cross validation to help us decide which model we're going to use for our predictions.
+
+we can associate important points to start using the machine learning models as:
+
+- Set Average model as your baseline
+
+- Start by the simplest models which are Linear Regression and Lasso Regression
+
+- Then, go for the next level of complexity: Random Forest and XGBoost Regression)
+
+- Avoid overfitting by applying Cross Validation training and tests.
+
+## 7.1. Comparing Model's Performance
+
+In the first comparison, before Cross Validation, we divided our dataset in two: training and test datsets. 
+
+- For training, we separated all the records before the last 6 weeks of the dataset
+
+- For test, we separated the records the last 6 weeks of the dataset.
+
+These were the results:
+
+
 
 
 
