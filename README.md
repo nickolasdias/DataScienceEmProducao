@@ -442,7 +442,11 @@ There are basically three process of data preparation that we can use: **Normali
 
 ## 5.1. Normalization
 
-The normalization process works for those variables that have a normal distribution. Thus, normalization takes variables with these characteristics and transforms them into standardized normal distributions, that is, normal distributions with mean 0 and standard deviation 1. The Equation can be finding in the notebook.
+The normalization process works for those variables that have a normal distribution. Thus, normalization takes variables with these characteristics and transforms them into standardized normal distributions, that is, normal distributions with mean 0 and standard deviation 1.
+
+We need to check the variables distributions. So, we check the distributions from section 4.1.2 Numerical variable.
+
+![03](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/03.png)
 
 
 ## 5.2. Rescaling
@@ -467,40 +471,42 @@ Therefore, we will analyze the boxplots of each variable chosen and apply the me
 
 ### 5.2.1 Rescaling competition_distance
 
+![24](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/24.png)
 
+As observed in the results, there is a clear presence of outliers.
 
 ### 5.2.2 Rescaling competition_time_month
 
+![25](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/25.png)
+
+As observed in the results, there is a clear presence of outliers.
 
 ### 5.2.3 Rescaling promo_time_week
 
+![25](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/25.png)
 
+As observed in the results, there is a clear presence of outliers. However, they are not that far from the superior whisker. So we can take a chance to use the Min-Max Scaler.
 
 ## 5.3. Transformation
 
-In the data preparation process of transformation, let's to check three techniques: **Encoding**, **Response Variation Transformation** and **Nature Transformation**
+In the data preparation process of transformation, we learn to use three techniques: **Encoding**, **Response Variation Transformation** and **Nature Transformation**
 
 ### 5.3.1. Encoding
 
 In the Encoding tecnique, we convert the categorical variable into 
-numerical variable maintaining information content. So, we will use **One Hot Encoding**, **Label Encoding** and **Ordinal Encoding**.
+numerical variable maintaining information content. So, we use **One Hot Encoding**, **Label Encoding** and **Ordinal Encoding**.
 
 #### 5.3.1.1. One hot Encoding
 
-One-hot encoding is used in machine learning as a tecnique to quantify categorical data. In short, this tecnique produces a vector with length equal to the number of categories in the data set.  If a data point belongs to the
+One-hot encoding is used in machine learning as a tecnique to quantify categorical data. In short, this tecnique produces a vector with length equal to the number of categories in the data set.  
 
-With category then components of this vector are assigned the value 0 except for the ith component, which is assigned a value of 1.  In this way one can keep track of the categories in a numerically meaningful way.
-
-Let's use the One Hot Encoding in the "state_holiday" variable.
-
-
-
+**OBS**: The application is in the notebook.
 
 #### 5.3.1.2. Label Encoding
 
-Label Encoding is a popular encoding technique handling categorical variables. In the tecnique, each label is assigned a unique integer based on alphabetical ordering. Let's see how it works in the "store_type" variable.
+Label Encoding is a popular encoding technique handling categorical variables. In the tecnique, each label is assigned a unique integer based on alphabetical ordering.
 
-
+**OBS**: The application is in the notebook.
 
 #### 5.3.1.3. Ordinal Encoding
 
@@ -512,7 +518,8 @@ The labels chosen for the categories have no relationship. So categories that ha
 
 In the response variable transformation, we have that to approximate the distribution response variable to a normal distribution. This is necessary because machine learning algorithms are built on certain assumptions, and one such assumptions is that data are normally distributed. 
 
-Thus, to do this, we'll use the logarithmic transformation method according to the code.
+![02](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/02.png)
+
 
 ### 5.3.3. Nature Transformation
 
@@ -520,5 +527,10 @@ In the transformation of nature, we have to bring the true nature of the data in
 
 Therefore, we use the trigonometric circle by placing the months as arcs and separating them at equal distances.
 
-This process is made for the variables day of week, month, day, week of year.
+**OBS**: The application is in the notebook.
+
+# Module 06 - Feature Selection
+
+
+
 
