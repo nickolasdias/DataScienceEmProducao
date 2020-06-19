@@ -434,3 +434,91 @@ According to the heat map, we can conclude that the larger correlation occurs be
 
 # Module 05 - Data Preparation
 
+In this step, we will do the data preparation, which is the data modelation for Machine Learning training. The reason for this is that learning most machine learning algorithms is made easy with numerical data on the same scale.
+
+#### How to prepare data ?
+
+There are basically three process of data preparation that we can use: **Normalization**, **Rescaling** and **Transformation**.
+
+## 5.1. Normalization
+
+The normalization process works for those variables that have a normal distribution. Thus, normalization takes variables with these characteristics and transforms them into standardized normal distributions, that is, normal distributions with mean 0 and standard deviation 1. The Equation can be finding in the notebook.
+
+
+## 5.2. Rescaling
+
+The rescaling process works for those variables that do not have a normal distribution, that is, the variables have non-Gaussian distributions. Therefore, their intervals are rescalled containing mean 0 and standard deviation 1.
+
+There are two methods of rescaling that we can to use in the variables. They are: **Min-Max-Scaler** and **Robuster-Scaler**
+
+#### Min-Max-Scaler
+
+The Min-Max-Scaler application does not change the nature of the variables, maintaining the distributions. What will change is only the interval. But, the Min-Max-Scaler application presents a problem that is related to the outliers of the variables because considering these values in the equation can bring the transformed data results very close to zero of the new scale generating a cluster.  And that takes the format out of the distribution.
+
+Therefore, we can use the Robuster-Scaler method that uses quartiles instead of the maximum and minimum value.
+
+#### Robuster-Scaler
+
+Robust-Scaler is a method that can solve the outliers problem faced in Min-Max-Scale, because it uses Q1 and Q3. Thus, to apply one of the presented methods, we need to analyze the boxplot of each variable. So, if the assigned variable has many outliers we use Robust-Scaler. Otherwise, we use Min-Max-Scaler. 
+
+Therefore, we will analyze the boxplots of each variable chosen and apply the methods.
+
+**OBS**: This methods make part of the **sklearn.preprocessing** library.
+
+### 5.2.1 Rescaling competition_distance
+
+
+
+### 5.2.2 Rescaling competition_time_month
+
+
+### 5.2.3 Rescaling promo_time_week
+
+
+
+## 5.3. Transformation
+
+In the data preparation process of transformation, let's to check three techniques: **Encoding**, **Response Variation Transformation** and **Nature Transformation**
+
+### 5.3.1. Encoding
+
+In the Encoding tecnique, we convert the categorical variable into 
+numerical variable maintaining information content. So, we will use **One Hot Encoding**, **Label Encoding** and **Ordinal Encoding**.
+
+#### 5.3.1.1. One hot Encoding
+
+One-hot encoding is used in machine learning as a tecnique to quantify categorical data. In short, this tecnique produces a vector with length equal to the number of categories in the data set.  If a data point belongs to the
+
+With category then components of this vector are assigned the value 0 except for the ith component, which is assigned a value of 1.  In this way one can keep track of the categories in a numerically meaningful way.
+
+Let's use the One Hot Encoding in the "state_holiday" variable.
+
+
+
+
+#### 5.3.1.2. Label Encoding
+
+Label Encoding is a popular encoding technique handling categorical variables. In the tecnique, each label is assigned a unique integer based on alphabetical ordering. Let's see how it works in the "store_type" variable.
+
+
+
+#### 5.3.1.3. Ordinal Encoding
+
+Ordinal Encoding is used to transform non-numerical labels into numerical labels (or nominal categorical variables). Numerical labels are always between 1 and the number of classes.
+
+The labels chosen for the categories have no relationship. So categories that have some ties or are close to each other lose such information after encoding. The first unique values in your column becomes 1, the second becomes 2, the third becomes 3, and so on.
+
+### 5.3.2. Response Variable Transformation
+
+In the response variable transformation, we have that to approximate the distribution response variable to a normal distribution. This is necessary because machine learning algorithms are built on certain assumptions, and one such assumptions is that data are normally distributed. 
+
+Thus, to do this, we'll use the logarithmic transformation method according to the code.
+
+### 5.3.3. Nature Transformation
+
+In the transformation of nature, we have to bring the true nature of the data into the data set. For example, we have the variable month that needs to be transformed because it is a cyclical variable, that is, the months are repeated each year that closes. But for that we don't just list the months 1 to 12, because if we leave the months listed, we lose the sense of the cycle because of the different distances. For example, we take the month of January 2018, we verify that it is a long distance until December 2018, but not necessarily, December 2018 is far from the month of January 2019. What happens is that December 2018 has the same distance from January 2019 as March 2018 has from April 2018. And the same distances keep the cycle.
+
+Therefore, we use the trigonometric circle by placing the months as arcs and separating them at equal distances.
+
+This process is made for the variables day of week, month, day, week of year.
+
