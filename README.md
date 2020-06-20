@@ -577,9 +577,44 @@ As observed in the results, the Random Forest Regressor had the least (1011.19).
 
 ## 7.2. Cross Validation and Comparing Model's Performance
 
+As the model we are developing is a Time Series model, we need to divide our dataset respecting the time. So for each iteration of the **Cross Validation** , we are getting a diferent parts of our dataset based on the records dates.
+
+These were the results:
+
+![29](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/29.png)
+
+As observed in the results, the Random Forest had the least RMSE. However, in this project, we're going to go with fine tuning the **XGBoost Regressor** to check the results.
+
+# Module 08 - Hyperparameter Fine Tuning 
+
+In this module, we learn what is the hyperparameter fine tuning. The motivation to do it is find the parameter set that maximizes the model's performance. Therefore, there are three strategies that we can to use:
+
+- Random Search: Defines values for each of the hyperparameters randomly.
+
+Advantage: Easy to implement and has low cost
+
+Disadvantage: You may never be able to find the best set of values that maximizes model's performance.
+
+- Grid Search: Defines all possible combinations of values that hyperparameters can assume.
+
+Advantage: It finds the right values (or something very near) that maximizes model's performance.
+
+Disadvantage: Tt can take an eternity to calculate and it has a high cost.
+
+- Bayesian Search: Defines the values for the hyperparameters following Bayes's Theory.
+
+Advantage: Define the values for the hiperparameters based on past learning.
+
+Disadvantage: High complexity to learn how to implement it
+
+For the project, we use the the **Random Search** because it is easy to implement.
+
+## 8.1. Random Search
+
+Depending on the parameters chosen, random Search takes time to make the choices. 
 
 
-
+## 8.2. Final Model
 
 
 
