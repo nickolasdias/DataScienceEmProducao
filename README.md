@@ -693,19 +693,21 @@ Observing the results, we can see that:
 
 # 10.0 - Deploying The Model to Production
 
-In this module, we get to learn how to deploy our machine learning model to production environment in order **to make it accessible to any person with a smartphone with Telegram app installed**.
+In this module, the latter, we learn how to deploy the model in production. 
+
+The motivation for this step is to make the predictions of the model accessible to any consumer.
+
+Therefore, we have that to create a production architecture
+
+![35](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/35.png)
+
 
 ## 10.1. The cloud Plataform
 
 In our project, we used [Heroku](https://dashboard.heroku.com/apps)
 
-## 10.2. Creating a bot in Telegram
 
-First, to create our bot, we need to talk to a... bot! Yes, the [BotFather](https://telegram.me/BotFather) who is responsible for assisting us the creation of bot the Telegram. I won't describe the process in details here because the documentation from Telegram is pretty complete and easy to follow.
 
-Link: https://core.telegram.org/bots#3-how-do-i-create-a-bot
-
-## 10.3. Telegram Bot Architecture 
 
 
 
