@@ -699,7 +699,7 @@ The motivation for this step is to make the predictions of the model accessible 
 
 Therefore, we have that to create a production architecture
 
-![35](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/35.png)
+![39](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/39.png)
 
 
 ## 10.1. The cloud Plataform
@@ -707,7 +707,15 @@ Therefore, we have that to create a production architecture
 In our project, we used [Heroku](https://dashboard.heroku.com/apps)
 
 
+### Task List
 
+- Create a class with the cleaning, transformation and encoding. (Rossmann.py)
+
+- Create an API (Handler.py)
+
+- Create a Script to test the API
+
+**OBS**: These files are created in the notebook
 
 
 
