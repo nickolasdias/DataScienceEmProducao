@@ -660,6 +660,13 @@ Therefore, we get to learn how to translate the MAE and MAPE to business languag
 
 ![31](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/31.png)
 
+As we can see in the results, we have the MAE and MAP metrics present. But what do these numbers mean for business performance?
 
+In a very simple way, let's take, as an example, store 02, the MAE is R$421.41 and the MAPE is approximately 0.09. The value R$ 421.41 is the error of the average daily sale. And the percentage value over this metric is 0.09 (9%). This means that the ASM is the percentage of the MAE. Therefore, we can conclude that store 02 will have a sales forecast of R$ 170870.98 and that the average error over daily sales is R$ 421.41 for more or less, and this represents 9%.
 
+As an interpretation, for the business team this error is relatively low in relation to the expected number of sales. This method helps the business team to make a decision.
+
+## 9.2. Total Performance
+
+![34](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/34.png)
 
