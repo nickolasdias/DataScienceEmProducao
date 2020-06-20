@@ -611,10 +611,35 @@ For the project, we use the the **Random Search** because it is easy to implemen
 
 ## 8.1. Random Search
 
+We have chosen the following parameters according to the code to use in Random Search
+
+![36](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/36.png)
+
 Depending on the parameters chosen, random Search takes time to make the choices. 
 
+Therefore, Random Search has granted us the following performance metrics for the model.
+
+![37](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/37.png)
+
+For the final model, we use the metrics of line 2.
 
 ## 8.2. Final Model
+
+![30](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/30.png)
+
+As we can see, the final model (XGBoost) is maximized. 
+
+# 9.0 - Error Translation and Interpretation 
+
+In the module of Error Translation and Interpretation, we analyse the Business Performance and Total Performance of Model. This is important to understand the model's performance and to tell the CEO how much money this model will bring to the company.
+
+Therefore, we get to learn how to translate the MAE and MAPE to business language.
+
+![31](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/31.png)
+
+
+![32](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/32.png)
+
 
 
 
