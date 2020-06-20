@@ -670,6 +670,9 @@ As an interpretation, for the business team this error is relatively low in rela
 ![33](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/33.png)
 
 
+In the scatterplot, we can observing the relation between the stores and your MAPE. 
+There are some stores that have a MAPE above of 30%.
+
 ## 9.2. Total Performance
 
 ![34](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/34.png)
@@ -679,4 +682,31 @@ In this Table, we can see what will be the best scenario and the worst scenario 
 ## 9.3. Machine Learning Performance
 
 ![35](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/35.png)
+
+Observing the results, we can see that:
+
+- By observing the first and second line plots, we can see that the predictions or our model is pretty close to the real value for sales. On the other hand, the error rate has some variance.
+
+- By observing the histogram, the error distribution almost follows a normal distribution.
+
+- By observing the scatterplot for the errors, the points seems well fit in a horizontal tube which means that there's a few variation in the error. If the points formed any other shape (e.g opening/closing cone or an arch), this would mean that the errors follows a trend and we would need to review our model.
+
+# 10.0 - Deploying The Model to Production
+
+In this module, we get to learn how to deploy our machine learning model to production environment in order **to make it accessible to any person with a smartphone with Telegram app installed**.
+
+## 10.1. The cloud Plataform
+
+In our project, we used [Heroku](https://dashboard.heroku.com/apps)
+
+## 10.2. Creating a bot in Telegram
+
+First, to create our bot, we need to talk to a... bot! Yes, the [BotFather](https://telegram.me/BotFather) who is responsible for assisting us the creation of bot the Telegram. I won't describe the process in details here because the documentation from Telegram is pretty complete and easy to follow.
+
+Link: https://core.telegram.org/bots#3-how-do-i-create-a-bot
+
+## 10.3. Telegram Bot Architecture 
+
+
+
 
