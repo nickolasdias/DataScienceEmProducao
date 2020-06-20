@@ -666,7 +666,17 @@ In a very simple way, let's take, as an example, store 02, the MAE is R$421.41 a
 
 As an interpretation, for the business team this error is relatively low in relation to the expected number of sales. This method helps the business team to make a decision.
 
+
+![33](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/33.png)
+
+
 ## 9.2. Total Performance
 
 ![34](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/34.png)
+
+In this Table, we can see what will be the best scenario and the worst scenario predicted.
+
+## 9.3. Machine Learning Performance
+
+![35](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/35.png)
 
