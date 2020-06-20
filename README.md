@@ -633,14 +633,32 @@ As we can see, the final model (XGBoost) is maximized.
 
 In the module of Error Translation and Interpretation, we analyse the Business Performance and Total Performance of Model. This is important to understand the model's performance and to tell the CEO how much money this model will bring to the company.
 
-Therefore, we get to learn how to translate the MAE and MAPE to business language.
+Therefore, we get to learn how to translate the MAE and MAPE to business language. And the RMSE to performance model.
+
+### Characteristics of each Error Metric
+
+- MAE:
+
+    * Assigns equal weight to all errors.
+    * Robust in the presence of outliers, that is, invariable to outliers,
+    * Easy understanding by the business team
+
+- MAPE: 
+    
+    * Show how far the prediction is from the actual value, on average, as a percentage.
+    * Widely used to report the results.
+    * It cannot be used if response variable contains zero. If you have to predict zero, then you have to use other metrics.
+    
+- RMSE:
+
+    * It gives a lot of weight to large errors.
+    * Sensitive in the presence of outliers.
+    * Ideal for measuring the machine learning model's performance.
+    
+    
+## 9.1. Business Performance
 
 ![31](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/31.png)
-
-
-![32](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/32.png)
-
-
 
 
 
