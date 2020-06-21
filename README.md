@@ -97,7 +97,7 @@ Based on the hypothesis map, we create our hypothesis about the various stores, 
 
 ## Creating Hypothesis
 
-*Hypotheses about Stores*
+- *Hypotheses about Stores*
 
 1. Store with more employees should sell more.
 
@@ -111,7 +111,7 @@ Based on the hypothesis map, we create our hypothesis about the various stores, 
 
 6. Stores with longer competitors can sell more.
 
-*Hyphoteses about Products*
+- *Hyphoteses about Products*
 
 1. Stores that invest more in marketing should sell more.
 
@@ -127,7 +127,7 @@ Based on the hypothesis map, we create our hypothesis about the various stores, 
 
 7. Stores with more consecutive promotions should sell more.
 
-*Hyphoteses about Time*
+- *Hyphoteses about Time*
 
 1. Stores that open on Christmas should sell more.
 
@@ -261,6 +261,11 @@ Analyzing the histograms, we have:
 
 Analyzing the plots, we can see that:
 
+- Although there are many more open stores on Easter holiday, the volume of sales is larger on Christmas. This might be due to Christmas promotion sales that stores have by the end of the year
+
+- For the stores of type a, c and d there is a high concentration of sales. In addition, for the stores of type b the volume of sales is lower and its value range is much more distributed. As the provided dataset does not clearly describe the difference between the store types, it is not possible to knows whats could be generating these differences.
+
+- For the assortment type extended, basic there is a high concentration of sales. In addition, for the assortment extra the volume of sales is lower and its value range is much more distributed. This might be due the assortment of products each store have in stock and on sale which impacts the volume of sales.
 
 ## 4.2. Bivariate Analysys
 
