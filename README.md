@@ -78,7 +78,12 @@ With this, we analyse some features of the data set as:
 
 - Summary Statistics
 
+    * Get the min, max, range, mean, median, standar deviation, skewness and kurtosis values of the data for each numerical variable.
+
+
 ![40](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/40.png)
+
+    * Plot box plot for categorical variables (state_holiday, store_type and assortment in relation to sales).
 
 ![41](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/41.png)
 
