@@ -702,11 +702,6 @@ Therefore, we have that to create a production architecture
 ![39](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/39.png)
 
 
-## 10.1. The cloud Plataform
-
-In our project, we used [Heroku](https://dashboard.heroku.com/apps)
-
-
 ### Task List
 
 - Create a class with the cleaning, transformation and encoding. (Rossmann.py)
@@ -717,6 +712,9 @@ In our project, we used [Heroku](https://dashboard.heroku.com/apps)
 
 **OBS**: These files are created in the notebook
 
+OBS: The codes of the list are in the notebook
 
+## The Cloud Plataform
 
+In our project, we used [Heroku](https://dashboard.heroku.com/apps)
 
