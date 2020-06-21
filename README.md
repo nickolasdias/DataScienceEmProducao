@@ -193,24 +193,23 @@ There are three types of Exploratory Data Analysis:
 
 - **Univariate Analysis**
 
--- How is this variable ?
+    * How is this variable ?
 
-Get summary statistics (min, max, distribution, range, etc)
+    * Get summary statistics (min, max, distribution, range, etc)
 
 - **Bivariate Analysis**
 
-How the explanatory variable impacts the target variable?
+    * How the explanatory variable impacts the target variable?
 
-Get correlation between them.
+    * Get correlation between them.
 
 Validate / Invalidate hypotheses.
 
 - **Multivariate Analysis**
 
-How is the relation between the explanatory variables ?
+    * How is the relation between the explanatory variables ?
 
-Get correlation between them
-
+    * Get correlation between them
 
 ## 4.1. Univariate Analysis
 
