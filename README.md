@@ -56,21 +56,25 @@ So, there are four importants points to consider:
 
 # Module 02 - Data Description
 
-In this module, I start getting familiar with the dataset to understand how complex is the problem that I have to solve.
+In this module,  we start getting familiar with the dataset to understand how complex is the problem that we have to solve.
 
-With this, I analyse some features of the data set as:
+With this, we analyse some features of the data set as:
 
 - Dataset size
 
- Do I have the correct resources to work with ? Does the infrastrutucture support the amount of data ?
+    * Do we have the correct resources to work with ? 
+    
+    * Does the infrastrutucture support the amount of data ?
   
 - Variable types
 
-What variables types does the dataset have?
+    * What variables types does the dataset have?
   
 - Missing Data
 
-How much missing data from the dataset ? Why are there missing data ?
+    * How much missing data from the dataset ? 
+    
+    * Why are there missing data ?
 
 - Summary Statistics
 
