@@ -32,7 +32,7 @@ This project is divided into 10 modules where the necessary steps to make a comp
 
 # Module 01 - Understanding the business problem
 
-In this module, I learn how important it is to understand the business problem before starting a data science project.
+In this module, we learn how important it is to understand the business problem before starting a data science project.
 
 In the case of Rossmann's Stores the business problem was to make **a sales prevision of all the stores in the next six weeks**.
 
