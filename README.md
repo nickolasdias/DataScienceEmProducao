@@ -591,21 +591,21 @@ In this module, we learn what is the hyperparameter fine tuning. The motivation 
 
 - Random Search: Defines values for each of the hyperparameters randomly.
 
-Advantage: Easy to implement and has low cost
+      * Advantage: Easy to implement and has low cost
 
-Disadvantage: You may never be able to find the best set of values that maximizes model's performance.
+      * Disadvantage: You may never be able to find the best set of values that maximizes model's performance.
 
 - Grid Search: Defines all possible combinations of values that hyperparameters can assume.
 
-Advantage: It finds the right values (or something very near) that maximizes model's performance.
+     * Advantage: It finds the right values (or something very near) that maximizes model's performance.
 
-Disadvantage: Tt can take an eternity to calculate and it has a high cost.
+     * Disadvantage: Tt can take an eternity to calculate and it has a high cost.
 
 - Bayesian Search: Defines the values for the hyperparameters following Bayes's Theory.
 
-Advantage: Define the values for the hiperparameters based on past learning.
+     * Advantage: Define the values for the hiperparameters based on past learning.
 
-Disadvantage: High complexity to learn how to implement it
+     * Disadvantage: High complexity to learn how to implement it
 
 For the project, we use the the **Random Search** because it is easy to implement.
 
