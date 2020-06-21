@@ -40,21 +40,19 @@ So, there are four importants points to consider:
 
 - Understand the motivation of the problem - What is the motivation for making this a sales prevision ?
 
+     * The CFO requested this solution during a monthly results meeting.
+
 - Understand the root cause of the problem - Why do it ?
+
+     * The CFO wants to know the bugdet of each store to make reforms.
 
 - Identify the project sponsor - Who's the stalkerholder ?
 
+     * The project sponsor is the CFO.
+
 - Understand the solution format - Granulality, for example.
 
-Using these points above, it was answered
-
-- The CFO requested this solution during a monthly results meeting.
-
-- The CFO wants to know the bugdet of each store to make reforms.
-
-- The project sponsor is the CFO.
-
-- The format solution is to make the predict of daily sales of each store in the next six weeks using predict methods.
+     * The format solution is to make the predict of daily sales of each store in the next six weeks using predict methods.
 
 # Module 02 - Data Description
 
