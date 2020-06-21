@@ -449,7 +449,7 @@ According to the heat map, we can conclude that the larger correlation occurs be
 
 # Module 05 - Data Preparation
 
-In this step, we will do the data preparation, which is the data modelation for Machine Learning training. The reason for this is that learning most machine learning algorithms is made easy with numerical data on the same scale.
+In this step, we do the data preparation, which is the data modelation for Machine Learning training. The reason for this is that learning most machine learning algorithms is made easy with numerical data on the same scale.
 
 #### How to prepare data ?
 
@@ -556,7 +556,7 @@ The method that will be used, in this project, is Boruta. Thus, we will to make 
 
 By running Boruta for our dataset, the algorithm considers the following features as relevant:
 
-#colocar figura
+![027](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/image/27.png)
 
 Comparing the columns between the ones that we outlined in the conclusion from our hypothesis and the ones that Boruta suggested, we can see some differences.
 
