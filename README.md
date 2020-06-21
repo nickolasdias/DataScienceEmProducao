@@ -78,6 +78,10 @@ With this, we analyse some features of the data set as:
 
 - Summary Statistics
 
+![40](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/40.png)
+
+
+![41](https://github.com/nickolasdias/DataScienceEmProducao/blob/master/41.png)
 
 # Module 03 - Feature Engineering 
 
