@@ -20,3 +20,26 @@ A previsão de vendas será a base para saber qual a receita total para poder in
 
 Este projeto estará utilizando o conjunto de dados fornecido pela companhia neste [site](https://www.kaggle.com/c/rossmann-store-sales).
 
+## Passos do Projeto
+
+- Descrição dos Dados
+
+- Featuring Engineering
+
+- Filtro de Variáveis
+
+- Análise Exploratória de Dados
+
+- Preparação dos Dados
+
+- Feature Selection
+
+- Modelos de Machine Learning
+
+- Hyperparameter Fine Tuning
+
+- Interpretação e tradução do Erro
+
+- Deploy do Modelo em Produção
+
+O projeto encontra-se neste [notebook](github.com/nickolasdias)
