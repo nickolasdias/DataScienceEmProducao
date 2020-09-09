@@ -42,4 +42,4 @@ Este projeto estará utilizando o conjunto de dados fornecido pela companhia nes
 
 - Deploy do Modelo em Produção
 
-O projeto encontra-se neste [notebook](https://github.com/nickolasdias/Rossmann/blob/master/notebook/Rossmann_original.ipynb)
+O projeto encontra-se neste [notebook](https://github.com/nickolasdias/Rossmann/blob/master/notebook/Rossmann_original.ipynb).
